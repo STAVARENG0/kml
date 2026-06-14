@@ -1,11 +1,9 @@
-# Atualizar somente o front
+# Atualização front v5
 
-Suba apenas os arquivos desta pasta `frontend-github` no repositório do GitHub Pages.
+Suba os arquivos desta pasta no repositório GitHub Pages do site público.
 
-Arquivos principais alterados:
-- `index.html`
-- `styles.css`
-- `app.js`
-- `instructions.html`
-
-Não precisa mexer no Railway para essa alteração do site público.
+Alterações:
+- Instruções corrigidas em português e inglês.
+- Regras reforçadas: sem etiqueta, sem caixa nova/original, sem fotos, sem nome pessoal/documento, sem bateria/inflamável.
+- Texto corrigido: a KML leva a caixa própria; cliente só deixa os itens separados para a coleta.
+- Botões do site atualizados para “Instruções para preparar os itens”.

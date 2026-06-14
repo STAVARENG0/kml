@@ -2,9 +2,9 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Instruções para preparar a caixa - KML Transport</title>
+  <title>Instruções de coleta - KML Transport</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Orientações para preparar sua caixa de mudança antes da coleta KML Transport.">
+  <meta name="description" content="Orientações para separar seus itens antes da coleta KML Transport.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,34 +13,95 @@
 </head>
 <body class="instructions-page">
   <main class="instructions-wrapper">
-    <section class="instructions-card" aria-label="Instruções para preparar a caixa">
+    <section class="instructions-card" aria-label="Instruções de coleta">
       <div class="instructions-top">
         <img class="instructions-logo" src="assets/logo-kml.png" alt="Logotipo KML Transport">
         <div>
           <div class="instructions-kicker">KML Transport</div>
-          <h1 class="instructions-title">Instruções para preparar sua caixa</h1>
-          <p class="instructions-subtitle">Para agilizar a coleta e evitar problemas durante a viagem, deixe a caixa preparada com atenção a estes pontos.</p>
+          <h1 class="instructions-title" data-i18n="title">Instruções para preparar seus itens</h1>
+          <p class="instructions-subtitle" data-i18n="subtitle">A equipe KML leva a caixa própria no dia da coleta. Para agilizar o atendimento, deixe os itens separados, acessíveis e seguindo as regras abaixo.</p>
         </div>
       </div>
 
+      <div class="language-switch" aria-label="Selecionar idioma">
+        <button type="button" class="lang-btn active" data-lang="pt">🇧🇷 PT</button>
+        <button type="button" class="lang-btn" data-lang="en">🇮🇪 EN</button>
+      </div>
+
       <ul class="instructions-list">
-        <li><div><strong>Retire etiquetas e identificações antigas.</strong><span>Antes da coleta, remova etiquetas, códigos de barras, notas, adesivos de loja e qualquer informação antiga da caixa.</span></div></li>
-        <li><div><strong>Evite embalagens de produto novo.</strong><span>Quando possível, retire os itens das caixas originais de loja. A caixa deve estar com aparência de mudança e itens pessoais.</span></div></li>
-        <li><div><strong>Não inclua documentos ou dados pessoais.</strong><span>Evite fotos, documentos, crachás, cartões, papéis com nome completo, números pessoais ou qualquer tipo de identificação sensível.</span></div></li>
-        <li><div><strong>Não envie baterias ou inflamáveis.</strong><span>Não coloque baterias soltas, power banks, produtos inflamáveis, aerossóis, líquidos inflamáveis ou itens que ofereçam risco no transporte.</span></div></li>
-        <li><div><strong>Proteja louças, vidros e itens frágeis.</strong><span>Deixe peças frágeis embaladas com plástico bolha, papel, toalhas ou roupas, prontas para a viagem.</span></div></li>
-        <li><div><strong>Organize a caixa antes da chegada da equipe.</strong><span>Separe os itens com antecedência e deixe tudo bem acomodado para que a coleta seja mais rápida e tranquila.</span></div></li>
+        <li><div><strong data-i18n="rule1Title">Não use caixa nova ou embalagem original de produto.</strong><span data-i18n="rule1Text">Os itens não podem estar em caixa nova de loja, embalagem original ou com aparência de produto novo. A coleta deve ser caracterizada como mudança e itens pessoais.</span></div></li>
+        <li><div><strong data-i18n="rule2Title">Não pode etiqueta ou identificação antiga.</strong><span data-i18n="rule2Text">Remova etiquetas, códigos de barras, notas, adesivos, endereços, nomes, marcações antigas ou qualquer informação colada nos itens.</span></div></li>
+        <li><div><strong data-i18n="rule3Title">Não envie fotos, nomes pessoais ou documentos.</strong><span data-i18n="rule3Text">Não coloque fotos, documentos, crachás, cartões, papéis com nome pessoal, números pessoais ou qualquer tipo de identificação.</span></div></li>
+        <li><div><strong data-i18n="rule4Title">Não coloque baterias, inflamáveis ou itens de risco.</strong><span data-i18n="rule4Text">Não envie baterias soltas, power banks, produtos inflamáveis, sprays, aerossóis, líquidos inflamáveis ou qualquer item que possa oferecer risco no transporte.</span></div></li>
+        <li><div><strong data-i18n="rule5Title">Deixe os itens separados antes da equipe chegar.</strong><span data-i18n="rule5Text">A caixa é própria da KML e será levada pela equipe. Você não precisa montar a caixa antes; apenas deixe tudo separado e fácil de acessar para agilizar a coleta.</span></div></li>
+        <li><div><strong data-i18n="rule6Title">Proteja louças, vidros e itens frágeis.</strong><span data-i18n="rule6Text">Louças, vidros e objetos delicados devem estar previamente enrolados em plástico bolha, toalhas, roupas ou outro material de proteção.</span></div></li>
       </ul>
 
-      <div class="instructions-alert">
-        A equipe KML pode orientar ajustes no momento da confirmação ou da coleta. Essas instruções ajudam a proteger sua mudança e evitar atrasos.
+      <div class="instructions-alert" data-i18n="alert">
+        Essas regras ajudam a evitar atrasos, recusas e problemas durante o transporte. Se tiver dúvida sobre algum item, fale com a KML antes da coleta.
       </div>
 
       <div class="instructions-footer-actions">
-        <a class="back-button" href="index.html">Voltar para agendamento</a>
-        <a class="whatsapp-button" href="https://wa.me/353894971210" target="_blank" rel="noopener noreferrer">Falar com a KML no WhatsApp</a>
+        <a class="back-button" href="index.html" data-i18n="back">Voltar para agendamento</a>
+        <a class="whatsapp-button" href="https://wa.me/353894971210" target="_blank" rel="noopener noreferrer" data-i18n="whatsapp">Falar com a KML no WhatsApp</a>
       </div>
     </section>
   </main>
+
+  <script>
+    const translations = {
+      pt: {
+        title: 'Instruções para preparar seus itens',
+        subtitle: 'A equipe KML leva a caixa própria no dia da coleta. Para agilizar o atendimento, deixe os itens separados, acessíveis e seguindo as regras abaixo.',
+        rule1Title: 'Não use caixa nova ou embalagem original de produto.',
+        rule1Text: 'Os itens não podem estar em caixa nova de loja, embalagem original ou com aparência de produto novo. A coleta deve ser caracterizada como mudança e itens pessoais.',
+        rule2Title: 'Não pode etiqueta ou identificação antiga.',
+        rule2Text: 'Remova etiquetas, códigos de barras, notas, adesivos, endereços, nomes, marcações antigas ou qualquer informação colada nos itens.',
+        rule3Title: 'Não envie fotos, nomes pessoais ou documentos.',
+        rule3Text: 'Não coloque fotos, documentos, crachás, cartões, papéis com nome pessoal, números pessoais ou qualquer tipo de identificação.',
+        rule4Title: 'Não coloque baterias, inflamáveis ou itens de risco.',
+        rule4Text: 'Não envie baterias soltas, power banks, produtos inflamáveis, sprays, aerossóis, líquidos inflamáveis ou qualquer item que possa oferecer risco no transporte.',
+        rule5Title: 'Deixe os itens separados antes da equipe chegar.',
+        rule5Text: 'A caixa é própria da KML e será levada pela equipe. Você não precisa montar a caixa antes; apenas deixe tudo separado e fácil de acessar para agilizar a coleta.',
+        rule6Title: 'Proteja louças, vidros e itens frágeis.',
+        rule6Text: 'Louças, vidros e objetos delicados devem estar previamente enrolados em plástico bolha, toalhas, roupas ou outro material de proteção.',
+        alert: 'Essas regras ajudam a evitar atrasos, recusas e problemas durante o transporte. Se tiver dúvida sobre algum item, fale com a KML antes da coleta.',
+        back: 'Voltar para agendamento',
+        whatsapp: 'Falar com a KML no WhatsApp'
+      },
+      en: {
+        title: 'Instructions to prepare your items',
+        subtitle: 'The KML team brings its own transport box on pickup day. To speed up the service, please keep your items separated, accessible, and following the rules below.',
+        rule1Title: 'Do not use new boxes or original product packaging.',
+        rule1Text: 'Items cannot be inside new store boxes, original product packaging, or look like brand-new products. The pickup must be clearly treated as moving/personal belongings.',
+        rule2Title: 'No labels or old identification are allowed.',
+        rule2Text: 'Remove labels, barcodes, receipts, stickers, addresses, names, old markings, or any information attached to the items.',
+        rule3Title: 'Do not include photos, personal names, or documents.',
+        rule3Text: 'Do not pack photos, documents, badges, cards, papers with personal names, personal numbers, or any type of personal identification.',
+        rule4Title: 'Do not pack batteries, flammable, or risky items.',
+        rule4Text: 'Do not send loose batteries, power banks, flammable products, sprays, aerosols, flammable liquids, or anything that may create transport risk.',
+        rule5Title: 'Keep the items separated before the team arrives.',
+        rule5Text: 'KML brings its own box and the team will handle it during pickup. You do not need to prepare the box in advance; just keep everything separated and easy to access.',
+        rule6Title: 'Protect dishes, glass, and fragile items.',
+        rule6Text: 'Dishes, glass, and delicate items should be wrapped in bubble wrap, towels, clothes, or another protective material before pickup.',
+        alert: 'These rules help avoid delays, refusals, and transport issues. If you are unsure about any item, contact KML before the pickup.',
+        back: 'Back to booking',
+        whatsapp: 'Talk to KML on WhatsApp'
+      }
+    };
+
+    function applyLanguage(lang) {
+      localStorage.setItem('kml_lang', lang);
+      document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
+      document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const key = el.dataset.i18n;
+        el.textContent = translations[lang][key] || translations.pt[key] || el.textContent;
+      });
+      document.querySelectorAll('.lang-btn').forEach((btn) => btn.classList.toggle('active', btn.dataset.lang === lang));
+    }
+
+    document.querySelectorAll('.lang-btn').forEach((btn) => btn.addEventListener('click', () => applyLanguage(btn.dataset.lang)));
+    applyLanguage(localStorage.getItem('kml_lang') || 'pt');
+  </script>
 </body>
 </html>
