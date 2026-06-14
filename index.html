@@ -12,207 +12,130 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="landing-body">
-  <div class="page-wrapper">
-    <div class="hero-card">
+  <main class="page-wrapper">
+    <section class="hero-card" aria-label="KML Transport">
       <div class="hero-inner">
         <header class="landing-header">
           <div class="logo-frame">
             <img src="assets/logo-kml.png" alt="Logotipo KML Transport">
           </div>
-          <div>
+
+          <div class="brand-block">
             <div class="company-name">KML TRANSPORT</div>
-            <p class="tagline">Eficiência em transporte, superação em serviços para todo o Brasil.</p>
-            <div class="social-links">
-              <a href="https://wa.me/353894971210" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Contato WhatsApp KML Transport">☎</a>
-              <a href="https://www.instagram.com/kmltransports?igsh=NjJyeDlzZ2RrbGdy" class="social-link social-link--instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram KML Transport">◎</a>
+            <p class="tagline" data-i18n="tagline">Eficiência em transporte, superação em serviços para todo o Brasil.</p>
+
+            <div class="social-links" aria-label="Contatos KML Transport">
+              <a href="https://wa.me/353894971210" class="social-link social-link--whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp KML Transport">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2.6A9.37 9.37 0 0 0 4.1 16.94L3 21.4l4.56-1.05a9.39 9.39 0 1 0 4.48-17.75Zm0 1.7a7.68 7.68 0 1 1-3.92 14.28l-.33-.2-2.3.53.55-2.24-.22-.35A7.68 7.68 0 0 1 12.04 4.3Zm-3.26 3.9c-.18 0-.48.06-.73.34-.25.27-.96.94-.96 2.28 0 1.34.98 2.64 1.11 2.82.14.18 1.9 3.03 4.73 4.12 2.35.93 2.84.74 3.35.69.51-.05 1.65-.67 1.89-1.32.23-.65.23-1.2.16-1.32-.07-.12-.26-.19-.54-.33-.28-.14-1.65-.81-1.9-.9-.25-.1-.44-.14-.62.14-.18.28-.72.9-.88 1.08-.16.19-.32.2-.6.07-.28-.14-1.18-.43-2.24-1.38-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.19.04-.35-.03-.49-.07-.14-.62-1.5-.86-2.06-.22-.53-.46-.46-.62-.47h-.53Z" fill="currentColor"/></svg><span>WhatsApp</span>
+              </a>
+              <a href="https://www.instagram.com/kmltransports?igsh=NjJyeDlzZ2RrbGdy" class="social-link social-link--instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram KML Transport">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.75 2.8h8.5a4.96 4.96 0 0 1 4.95 4.95v8.5a4.96 4.96 0 0 1-4.95 4.95h-8.5a4.96 4.96 0 0 1-4.95-4.95v-8.5A4.96 4.96 0 0 1 7.75 2.8Zm0 1.75a3.2 3.2 0 0 0-3.2 3.2v8.5a3.2 3.2 0 0 0 3.2 3.2h8.5a3.2 3.2 0 0 0 3.2-3.2v-8.5a3.2 3.2 0 0 0-3.2-3.2h-8.5Zm4.25 3.1a4.35 4.35 0 1 1 0 8.7 4.35 4.35 0 0 1 0-8.7Zm0 1.75a2.6 2.6 0 1 0 0 5.2 2.6 2.6 0 0 0 0-5.2Zm4.57-2.2a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1Z" fill="currentColor"/></svg><span>Instagram</span>
+              </a>
+            </div>
+
+            <div class="language-switch" aria-label="Selecionar idioma">
+              <button type="button" class="lang-btn active" data-lang="pt">🇧🇷 PT</button>
+              <button type="button" class="lang-btn" data-lang="en">🇮🇪 EN</button>
             </div>
           </div>
         </header>
 
-        <div class="divider"></div>
+        <div class="soft-divider"></div>
 
-        <h1 class="headline">Envios e mudanças da Irlanda para o Brasil e Europa.</h1>
-        <p class="subheadline">Faça seu pedido de caixa, escolha uma data disponível e acompanhe a confirmação da coleta pela equipe KML.</p>
+        <h1 class="headline" data-i18n="headline">Envios e mudanças da Irlanda para o Brasil e Europa.</h1>
+        <p class="subheadline" data-i18n="subheadline">Faça seu pedido de caixa, escolha uma data disponível e acompanhe a confirmação da coleta pela equipe KML.</p>
 
         <ul class="benefits-list">
-          <li>Coletas em toda a Irlanda, com agendamento prévio.</li>
-          <li>Caixas equivalentes a malas de 32 kg, perfeitas para mudanças e encomendas.</li>
-          <li>Mais de 15 anos atendendo brasileiros com comprometimento e transparência.</li>
+          <li data-i18n="benefit1">Coletas em toda a Irlanda, com agendamento prévio.</li>
+          <li data-i18n="benefit2">Caixas equivalentes a malas de 32 kg, perfeitas para mudanças e encomendas.</li>
+          <li data-i18n="benefit3">Mais de 15 anos atendendo brasileiros com comprometimento e transparência.</li>
         </ul>
 
-        <section class="box-section">
-          <div class="pricing-header">
-            <div class="pricing-title">Tamanhos de caixas e valores</div>
-          </div>
-
+        <section class="box-section" aria-label="Tamanhos de caixas">
+          <div class="pricing-title" data-i18n="pricingTitle">Tamanhos de caixas e valores</div>
           <div class="pricing-grid">
             <article class="box-option">
               <div class="box-figure"><img src="assets/caixa-grande.jpg" alt="Caixa grande"></div>
-              <div>
-                <div class="box-info-title">Caixa grande</div>
-                <div class="box-equivalent">Equivalente a 3 malas de 32 kg.</div>
-              </div>
-              <div class="box-price">€380</div>
-              <p class="box-note">Ideal para mudanças maiores e envio de grande volume.</p>
+              <div><strong data-i18n="boxLarge">Caixa grande</strong><span data-i18n="boxLargeEq">Equivalente a 3 malas de 32 kg.</span></div>
+              <b class="box-price">€380</b>
             </article>
-
             <article class="box-option">
               <div class="box-figure"><img src="assets/caixa-media.jpg" alt="Caixa média"></div>
-              <div>
-                <div class="box-info-title">Caixa média</div>
-                <div class="box-equivalent">Equivalente a 2 malas de 32 kg.</div>
-              </div>
-              <div class="box-price">€300</div>
-              <p class="box-note">Perfeita para envios médios, roupas e itens pessoais.</p>
+              <div><strong data-i18n="boxMedium">Caixa média</strong><span data-i18n="boxMediumEq">Equivalente a 2 malas de 32 kg.</span></div>
+              <b class="box-price">€300</b>
             </article>
-
             <article class="box-option">
               <div class="box-figure"><img src="assets/caixa-pequena.png" alt="Caixa pequena"></div>
-              <div>
-                <div class="box-info-title">Caixa pequena</div>
-                <div class="box-equivalent">Equivalente a 1 mala de 32 kg.</div>
-              </div>
-              <div class="box-price">€230</div>
-              <p class="box-note">Ótima opção para encomendas menores e documentos.</p>
+              <div><strong data-i18n="boxSmall">Caixa pequena</strong><span data-i18n="boxSmallEq">Equivalente a 1 mala de 32 kg.</span></div>
+              <b class="box-price">€230</b>
             </article>
           </div>
         </section>
 
-        <div class="weight-note">Sem limite de peso por caixa.</div>
+        <div class="weight-note" data-i18n="noWeightLimit">Sem limite de peso por caixa.</div>
 
-        <div class="cta-area">
-          <button class="cta-button" type="button" id="open-booking">
-            <span>Agendar coleta</span><span class="cta-button-icon">📦</span>
-          </button>
-          <p class="fine-print">Valores e prazos podem variar conforme a cidade de coleta e o destino final no Brasil ou Europa. Confirme sempre com a central de atendimento.</p>
-        </div>
+        <button class="cta-button" type="button" id="open-booking">
+          <span data-i18n="ctaText">Agendar coleta</span><span aria-hidden="true">📦</span>
+        </button>
+        <p class="fine-print" data-i18n="finePrint">Valores e prazos podem variar conforme a cidade de coleta e o destino final no Brasil ou Europa.</p>
 
         <footer class="landing-footer">
-          <span>KML Transport · Envios e mudanças da Irlanda para o Brasil e Europa.</span>
-          <div class="flags"><span>🇮🇪</span><span>➝</span><span>🇧🇷</span><span>·</span><span>🇪🇺</span></div>
+          <span>KML Transport</span>
+          <div class="flags"><span>🇮🇪</span><span>→</span><span>🇧🇷</span><span>·</span><span>🇪🇺</span></div>
         </footer>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 
   <div class="modal-overlay" id="booking-modal" aria-hidden="true">
     <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="booking-title">
       <button class="modal-close" type="button" id="close-booking" aria-label="Fechar">&times;</button>
-      <h2 class="modal-title" id="booking-title">Agendar coleta</h2>
-      <p class="modal-subtitle">Preencha os dados. O pedido cai no painel da KML para confirmação.</p>
+      <h2 class="modal-title" id="booking-title" data-i18n="bookingTitle">Agendar coleta</h2>
+      <p class="modal-subtitle" data-i18n="bookingSubtitle">Preencha os dados. O pedido cai no painel da KML para confirmação.</p>
 
       <form class="booking-form" id="booking-form">
-        <div class="form-section-title">1. Seus dados</div>
+        <div class="form-section-title" data-i18n="sectionCustomer">1. Seus dados</div>
         <div class="form-grid">
-          <label class="form-field">
-            <span class="form-label">Nome completo *</span>
-            <input class="form-input" type="text" name="customerName" required autocomplete="name">
-          </label>
-          <label class="form-field">
-            <span class="form-label">E-mail *</span>
-            <input class="form-input" type="email" name="email" required autocomplete="email">
-          </label>
-          <label class="form-field">
-            <span class="form-label">WhatsApp com DDI *</span>
-            <input class="form-input" type="tel" name="whatsapp" required placeholder="+353 89 000 0000">
-          </label>
-          <label class="form-field">
-            <span class="form-label">Data disponível para coleta *</span>
-            <select class="form-select" name="availabilityId" id="availability-select" required>
-              <option value="">Carregando datas...</option>
-            </select>
-          </label>
+          <label class="form-field"><span class="form-label" data-i18n="customerName">Nome completo *</span><input class="form-input" type="text" name="customerName" required autocomplete="name"></label>
+          <label class="form-field"><span class="form-label" data-i18n="email">E-mail *</span><input class="form-input" type="email" name="email" required autocomplete="email"></label>
+          <label class="form-field"><span class="form-label" data-i18n="whatsapp">WhatsApp com DDI *</span><input class="form-input" type="tel" name="whatsapp" required placeholder="+353 89 000 0000"></label>
+          <label class="form-field"><span class="form-label" data-i18n="pickupDate">Data disponível para coleta *</span><select class="form-select" name="availabilityId" id="availability-select" required><option value="" data-i18n="loadingDates">Carregando datas...</option></select></label>
         </div>
 
-        <div class="form-section-title">2. Caixa</div>
+        <div class="form-section-title" data-i18n="sectionBox">2. Caixa</div>
         <div class="form-grid">
-          <label class="form-field">
-            <span class="form-label">Tamanho da caixa *</span>
-            <select class="form-select" name="boxSize" id="box-size" required>
-              <option value="large">Caixa grande · €380</option>
-              <option value="medium">Caixa média · €300</option>
-              <option value="small">Caixa pequena · €230</option>
-            </select>
-          </label>
-          <label class="form-field">
-            <span class="form-label">Quantidade *</span>
-            <input class="form-input" type="number" name="boxQuantity" min="1" max="30" value="1" required>
-          </label>
-          <label class="form-field form-field--full">
-            <span class="form-label">O que vai dentro da caixa?</span>
-            <textarea class="form-textarea" name="contents" rows="3" placeholder="Ex.: roupas, impressora, ferramentas, cosméticos, livros..."></textarea>
-          </label>
+          <label class="form-field"><span class="form-label" data-i18n="boxSize">Tamanho da caixa *</span><select class="form-select" name="boxSize" id="box-size" required><option value="large" data-i18n="selectLarge">Caixa grande · €380</option><option value="medium" data-i18n="selectMedium">Caixa média · €300</option><option value="small" data-i18n="selectSmall">Caixa pequena · €230</option></select></label>
+          <label class="form-field"><span class="form-label" data-i18n="quantity">Quantidade *</span><input class="form-input" type="number" name="boxQuantity" min="1" max="30" value="1" required></label>
+          <label class="form-field form-field--full"><span class="form-label" data-i18n="contents">O que vai dentro da caixa?</span><textarea class="form-textarea" name="contents" rows="3" data-i18n-placeholder="contentsPlaceholder" placeholder="Ex.: roupas, impressora, ferramentas, cosméticos, livros..."></textarea></label>
         </div>
 
-        <div class="form-section-title">3. Endereço de coleta na Irlanda</div>
+        <div class="form-section-title" data-i18n="sectionPickup">3. Endereço de coleta na Irlanda</div>
         <div class="form-grid">
-          <label class="form-field form-field--full">
-            <span class="form-label">Endereço *</span>
-            <input class="form-input" type="text" name="pickupAddress1" required placeholder="Rua, número, complemento principal">
-          </label>
-          <label class="form-field">
-            <span class="form-label">Complemento</span>
-            <input class="form-input" type="text" name="pickupAddress2" placeholder="Apartamento, bloco, referência">
-          </label>
-          <label class="form-field">
-            <span class="form-label">Eircode *</span>
-            <input class="form-input" type="text" name="eircode" required placeholder="D02 X285">
-          </label>
-          <label class="form-field">
-            <span class="form-label">Cidade / Town *</span>
-            <input class="form-input" type="text" name="pickupCity" required>
-          </label>
-          <label class="form-field">
-            <span class="form-label">County *</span>
-            <input class="form-input" type="text" name="pickupCounty" required>
-          </label>
+          <label class="form-field form-field--full"><span class="form-label" data-i18n="pickupAddress">Endereço *</span><input class="form-input" type="text" name="pickupAddress1" required data-i18n-placeholder="addressPlaceholder" placeholder="Rua, número, complemento principal"></label>
+          <label class="form-field"><span class="form-label" data-i18n="complement">Complemento</span><input class="form-input" type="text" name="pickupAddress2" data-i18n-placeholder="complementPlaceholder" placeholder="Apartamento, bloco, referência"></label>
+          <label class="form-field"><span class="form-label">Eircode *</span><input class="form-input" type="text" name="eircode" required placeholder="D02 X285"></label>
+          <label class="form-field"><span class="form-label" data-i18n="city">Cidade / Town *</span><input class="form-input" type="text" name="pickupCity" required></label>
+          <label class="form-field"><span class="form-label">County *</span><input class="form-input" type="text" name="pickupCounty" required></label>
         </div>
 
-        <div class="form-section-title">4. Destino / destinatário</div>
+        <div class="form-section-title" data-i18n="sectionDestination">4. Destino / destinatário</div>
         <div class="form-grid">
-          <label class="form-field">
-            <span class="form-label">Nome do destinatário *</span>
-            <input class="form-input" type="text" name="recipientName" required>
-          </label>
-          <label class="form-field">
-            <span class="form-label">CPF</span>
-            <input class="form-input" type="text" name="recipientCpf" placeholder="000.000.000-00">
-          </label>
-          <label class="form-field">
-            <span class="form-label">Telefone destino</span>
-            <input class="form-input" type="tel" name="recipientPhone">
-          </label>
-          <label class="form-field">
-            <span class="form-label">País destino *</span>
-            <input class="form-input" type="text" name="destinationCountry" value="Brasil" required>
-          </label>
-          <label class="form-field form-field--full">
-            <span class="form-label">Endereço no destino *</span>
-            <input class="form-input" type="text" name="destinationAddress" required placeholder="Rua, número, bairro, complemento">
-          </label>
-          <label class="form-field">
-            <span class="form-label">Cidade destino *</span>
-            <input class="form-input" type="text" name="destinationCity" required>
-          </label>
-          <label class="form-field">
-            <span class="form-label">Estado</span>
-            <input class="form-input" type="text" name="destinationState" placeholder="SP">
-          </label>
-          <label class="form-field">
-            <span class="form-label">CEP</span>
-            <input class="form-input" type="text" name="destinationCep">
-          </label>
-          <label class="form-field form-field--full">
-            <span class="form-label">Observações</span>
-            <textarea class="form-textarea" name="notes" rows="2" placeholder="Melhor horário, referência, instruções..."></textarea>
-          </label>
+          <label class="form-field"><span class="form-label" data-i18n="recipientName">Nome do destinatário *</span><input class="form-input" type="text" name="recipientName" required></label>
+          <label class="form-field"><span class="form-label">CPF</span><input class="form-input" type="text" name="recipientCpf" placeholder="000.000.000-00"></label>
+          <label class="form-field"><span class="form-label" data-i18n="recipientPhone">Telefone destino</span><input class="form-input" type="tel" name="recipientPhone"></label>
+          <label class="form-field"><span class="form-label" data-i18n="destinationCountry">País destino *</span><input class="form-input" type="text" name="destinationCountry" value="Brasil" required></label>
+          <label class="form-field form-field--full"><span class="form-label" data-i18n="destinationAddress">Endereço no destino *</span><input class="form-input" type="text" name="destinationAddress" required data-i18n-placeholder="destinationPlaceholder" placeholder="Rua, número, bairro, complemento"></label>
+          <label class="form-field"><span class="form-label" data-i18n="destinationCity">Cidade destino *</span><input class="form-input" type="text" name="destinationCity" required></label>
+          <label class="form-field"><span class="form-label" data-i18n="state">Estado</span><input class="form-input" type="text" name="destinationState" placeholder="SP"></label>
+          <label class="form-field"><span class="form-label">CEP</span><input class="form-input" type="text" name="destinationCep"></label>
+          <label class="form-field form-field--full"><span class="form-label" data-i18n="notes">Observações</span><textarea class="form-textarea" name="notes" rows="2" data-i18n-placeholder="notesPlaceholder" placeholder="Melhor horário, referência, instruções..."></textarea></label>
         </div>
 
         <div id="booking-message" class="form-message" hidden></div>
 
         <div class="booking-footer">
-          <span>Campos marcados com * são obrigatórios.</span>
-          <button class="booking-submit" type="submit">Enviar pedido</button>
+          <span data-i18n="requiredText">Campos marcados com * são obrigatórios.</span>
+          <button class="booking-submit" type="submit" data-i18n="submitOrder">Enviar pedido</button>
         </div>
       </form>
     </div>
