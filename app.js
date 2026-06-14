@@ -17,11 +17,11 @@ const translations = {
     benefit2: 'Caixas equivalentes a malas de 32 kg, perfeitas para mudanças e encomendas.',
     benefit3: 'Mais de 15 anos atendendo brasileiros com comprometimento e transparência.',
     pricingTitle: 'Tamanhos de caixas e valores', boxLarge: 'Caixa grande', boxLargeEq: 'Equivalente a 3 malas de 32 kg.', boxMedium: 'Caixa média', boxMediumEq: 'Equivalente a 2 malas de 32 kg.', boxSmall: 'Caixa pequena', boxSmallEq: 'Equivalente a 1 mala de 32 kg.', noWeightLimit: 'Sem limite de peso por caixa.',
-    ctaText: 'Agendar coleta', finePrint: 'Valores e prazos podem variar conforme a cidade de coleta e o destino final no Brasil ou Europa.',
+    ctaText: 'Agendar coleta', instructionsCta: 'Instruções para preparar a caixa', finePrint: 'Após enviar o pedido, a equipe KML entrará em contato para confirmar os dados e orientar a preparação da caixa.',
     bookingTitle: 'Agendar coleta', bookingSubtitle: 'Preencha os dados. O pedido cai no painel da KML para confirmação.', sectionCustomer: '1. Seus dados', customerName: 'Nome completo *', email: 'E-mail *', whatsapp: 'WhatsApp com DDI *', pickupDate: 'Data disponível para coleta *', loadingDates: 'Carregando datas...', selectDate: 'Selecione uma data', noDates: 'Nenhuma data disponível no momento', errorDates: 'Erro ao carregar datas',
     sectionBox: '2. Caixa', boxSize: 'Tamanho da caixa *', selectLarge: 'Caixa grande · €380', selectMedium: 'Caixa média · €300', selectSmall: 'Caixa pequena · €230', quantity: 'Quantidade *', contents: 'O que vai dentro da caixa?', contentsPlaceholder: 'Ex.: roupas, impressora, ferramentas, cosméticos, livros...',
     sectionPickup: '3. Endereço de coleta na Irlanda', pickupAddress: 'Endereço *', addressPlaceholder: 'Rua, número, complemento principal', complement: 'Complemento', complementPlaceholder: 'Apartamento, bloco, referência', city: 'Cidade / Town *',
-    sectionDestination: '4. Destino / destinatário', recipientName: 'Nome do destinatário *', recipientPhone: 'Telefone destino', destinationCountry: 'País destino *', destinationAddress: 'Endereço no destino *', destinationPlaceholder: 'Rua, número, bairro, complemento', destinationCity: 'Cidade destino *', state: 'Estado', notes: 'Observações', notesPlaceholder: 'Melhor horário, referência, instruções...', requiredText: 'Campos marcados com * são obrigatórios.', submitOrder: 'Enviar pedido', sending: 'Enviando...'
+    sectionDestination: '4. Destino / destinatário', recipientName: 'Nome do destinatário *', recipientPhone: 'Telefone destino', destinationCountry: 'País destino *', destinationAddress: 'Endereço no destino *', destinationPlaceholder: 'Rua, número, bairro, complemento', destinationCity: 'Cidade destino *', state: 'Estado', notes: 'Observações', notesPlaceholder: 'Melhor horário, referência, instruções...', requiredText: 'Campos marcados com * são obrigatórios.', submitOrder: 'Enviar pedido', sending: 'Enviando...', successTitle: 'Pedido recebido com sucesso', successBody: 'Recebemos suas informações. Em breve a equipe KML entrará em contato pelo WhatsApp para confirmar a coleta e orientar os próximos passos.', successCode: 'Código do pedido:', instructionsButton: 'Ver instruções da caixa', closeMessage: 'Fechar'
   },
   en: {
     tagline: 'Efficient transport and reliable service to Brazil.',
@@ -31,11 +31,11 @@ const translations = {
     benefit2: 'Boxes equivalent to 32 kg suitcases, ideal for moving and parcels.',
     benefit3: 'Over 15 years serving Brazilians with commitment and transparency.',
     pricingTitle: 'Box sizes and prices', boxLarge: 'Large box', boxLargeEq: 'Equivalent to 3 suitcases of 32 kg.', boxMedium: 'Medium box', boxMediumEq: 'Equivalent to 2 suitcases of 32 kg.', boxSmall: 'Small box', boxSmallEq: 'Equivalent to 1 suitcase of 32 kg.', noWeightLimit: 'No weight limit per box.',
-    ctaText: 'Schedule pickup', finePrint: 'Prices and delivery times may vary according to pickup city and final destination in Brazil or Europe.',
+    ctaText: 'Schedule pickup', instructionsCta: 'Box preparation instructions', finePrint: 'After submitting your request, the KML team will contact you to confirm the details and guide the box preparation.',
     bookingTitle: 'Schedule pickup', bookingSubtitle: 'Fill in the details. Your request goes to the KML panel for confirmation.', sectionCustomer: '1. Your details', customerName: 'Full name *', email: 'Email *', whatsapp: 'WhatsApp with country code *', pickupDate: 'Available pickup date *', loadingDates: 'Loading dates...', selectDate: 'Select a date', noDates: 'No available dates right now', errorDates: 'Error loading dates',
     sectionBox: '2. Box', boxSize: 'Box size *', selectLarge: 'Large box · €380', selectMedium: 'Medium box · €300', selectSmall: 'Small box · €230', quantity: 'Quantity *', contents: 'What goes inside the box?', contentsPlaceholder: 'Ex.: clothes, printer, tools, cosmetics, books...',
     sectionPickup: '3. Pickup address in Ireland', pickupAddress: 'Address *', addressPlaceholder: 'Street, number, main complement', complement: 'Complement', complementPlaceholder: 'Apartment, block, reference', city: 'City / Town *',
-    sectionDestination: '4. Destination / recipient', recipientName: 'Recipient name *', recipientPhone: 'Destination phone', destinationCountry: 'Destination country *', destinationAddress: 'Destination address *', destinationPlaceholder: 'Street, number, neighborhood, complement', destinationCity: 'Destination city *', state: 'State', notes: 'Notes', notesPlaceholder: 'Best time, reference, instructions...', requiredText: 'Fields marked with * are required.', submitOrder: 'Send request', sending: 'Sending...'
+    sectionDestination: '4. Destination / recipient', recipientName: 'Recipient name *', recipientPhone: 'Destination phone', destinationCountry: 'Destination country *', destinationAddress: 'Destination address *', destinationPlaceholder: 'Street, number, neighborhood, complement', destinationCity: 'Destination city *', state: 'State', notes: 'Notes', notesPlaceholder: 'Best time, reference, instructions...', requiredText: 'Fields marked with * are required.', submitOrder: 'Send request', sending: 'Sending...', successTitle: 'Request received successfully', successBody: 'We have received your details. The KML team will contact you on WhatsApp soon to confirm the pickup and guide the next steps.', successCode: 'Order code:', instructionsButton: 'View box instructions', closeMessage: 'Close'
   }
 };
 
@@ -59,7 +59,22 @@ function formatDate(dateText) {
 }
 
 function showMessage(text, type = 'ok') { messageBox.hidden = false; messageBox.textContent = text; messageBox.className = `form-message ${type}`; }
-function hideMessage() { messageBox.hidden = true; messageBox.textContent = ''; }
+function showSuccessCard(orderCode) {
+  messageBox.hidden = false;
+  messageBox.className = 'form-message ok success-card';
+  messageBox.innerHTML = `
+    <strong>${t('successTitle')}</strong>
+    <p>${t('successBody')}</p>
+    <p><b>${t('successCode')}</b> ${orderCode}</p>
+    <div class="success-actions">
+      <a href="instructions.html">${t('instructionsButton')}</a>
+      <button type="button" id="close-success-message">${t('closeMessage')}</button>
+    </div>
+  `;
+  const closeSuccess = document.getElementById('close-success-message');
+  if (closeSuccess) closeSuccess.addEventListener('click', hideMessage);
+}
+function hideMessage() { messageBox.hidden = true; messageBox.textContent = ''; messageBox.className = 'form-message'; }
 function openModal() { modal.classList.add('is-visible'); modal.setAttribute('aria-hidden', 'false'); loadAvailability(); }
 function closeModal() { modal.classList.remove('is-visible'); modal.setAttribute('aria-hidden', 'true'); }
 
@@ -133,7 +148,7 @@ form.addEventListener('submit', async (event) => {
   try {
     const data = await api('/api/orders', { method: 'POST', body: JSON.stringify(formToObject(form)) });
     form.reset();
-    showMessage(`${data.message} Código do pedido: ${data.order.code}`, 'ok');
+    showSuccessCard(data.order.code);
     await loadAvailability();
   } catch (err) {
     showMessage(err.message, 'error');
