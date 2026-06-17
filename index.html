@@ -8,7 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="assets/logo-kml.png">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="landing-body">
@@ -86,6 +88,10 @@
 
         <footer class="landing-footer">
           <span>KML Transport</span>
+          <div class="footer-links">
+            <a href="privacy.html" data-i18n="privacyFooter">Privacidade</a>
+            <a href="terms.html" data-i18n="termsFooter">Termos</a>
+          </div>
           <div class="flags"><span>🇮🇪</span><span>→</span><span>🇧🇷</span><span>·</span><span>🇪🇺</span></div>
         </footer>
       </div>
@@ -124,16 +130,35 @@
         </div>
 
         <div class="form-section-title" data-i18n="sectionDestination">4. Destino / destinatário</div>
-        <div class="form-grid">
-          <label class="form-field"><span class="form-label" data-i18n="recipientName">Nome do destinatário *</span><input class="form-input" type="text" name="recipientName" required></label>
+        <label class="pickup-info-choice">
+          <input type="checkbox" id="pickup-info-at-collection">
+          <span><strong data-i18n="pickupInfoChoice">Prefiro informar conteúdo e dados do destino no momento da coleta.</strong><small data-i18n="pickupInfoHint">O funcionário da KML preencherá essas informações no painel de coletas.</small></span>
+        </label>
+        <input type="hidden" name="pickupInfoMode" id="pickup-info-mode" value="ONLINE">
+        <div class="form-grid" id="destination-fields">
+          <label class="form-field"><span class="form-label" data-i18n="recipientName">Nome do destinatário *</span><input class="form-input" type="text" name="recipientName" data-required-online required></label>
           <label class="form-field"><span class="form-label">CPF</span><input class="form-input" type="text" name="recipientCpf" placeholder="000.000.000-00"></label>
           <label class="form-field"><span class="form-label" data-i18n="recipientPhone">Telefone destino</span><input class="form-input" type="tel" name="recipientPhone"></label>
-          <label class="form-field"><span class="form-label" data-i18n="destinationCountry">País destino *</span><input class="form-input" type="text" name="destinationCountry" value="Brasil" required></label>
-          <label class="form-field form-field--full"><span class="form-label" data-i18n="destinationAddress">Endereço no destino *</span><input class="form-input" type="text" name="destinationAddress" required data-i18n-placeholder="destinationPlaceholder" placeholder="Rua, número, bairro, complemento"></label>
-          <label class="form-field"><span class="form-label" data-i18n="destinationCity">Cidade destino *</span><input class="form-input" type="text" name="destinationCity" required></label>
+          <label class="form-field"><span class="form-label" data-i18n="destinationCountry">País destino *</span><input class="form-input" type="text" name="destinationCountry" value="Brasil" data-required-online required></label>
+          <label class="form-field form-field--full"><span class="form-label" data-i18n="destinationAddress">Endereço no destino *</span><input class="form-input" type="text" name="destinationAddress" data-required-online required data-i18n-placeholder="destinationPlaceholder" placeholder="Rua, número, bairro, complemento"></label>
+          <label class="form-field"><span class="form-label" data-i18n="destinationCity">Cidade destino *</span><input class="form-input" type="text" name="destinationCity" data-required-online required></label>
           <label class="form-field"><span class="form-label" data-i18n="state">Estado</span><input class="form-input" type="text" name="destinationState" placeholder="SP"></label>
           <label class="form-field"><span class="form-label">CEP</span><input class="form-input" type="text" name="destinationCep"></label>
           <label class="form-field form-field--full"><span class="form-label" data-i18n="notes">Observações</span><textarea class="form-textarea" name="notes" rows="2" data-i18n-placeholder="notesPlaceholder" placeholder="Melhor horário, referência, instruções..."></textarea></label>
+        </div>
+
+        <div class="legal-consent">
+          <label>
+            <input type="checkbox" id="accept-legal" required>
+            <span>
+              <span data-i18n="acceptLegalStart">Li e aceito a</span>
+              <a href="privacy.html" target="_blank" rel="noopener" data-i18n="privacyLink">Política de Privacidade</a>
+              <span data-i18n="acceptLegalAnd">e os</span>
+              <a href="terms.html" target="_blank" rel="noopener" data-i18n="termsLink">Termos de Serviço</a>.
+            </span>
+          </label>
+          <input type="hidden" name="privacyVersion" value="2026-06-17">
+          <input type="hidden" name="termsVersion" value="2026-06-17">
         </div>
 
         <div id="booking-message" class="form-message" hidden></div>
